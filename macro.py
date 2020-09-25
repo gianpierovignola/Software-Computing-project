@@ -12,10 +12,12 @@ def Plot_Input_Variables():
     SigTree = Finput.Get("treeList_2_25_2_25_Sgn")
     BkgTree = Finput.Get("treeList_2_25_2_25_Bkg")
 
-    #create the canvas 
-    c1 = TCanvas("c1","Distributions of input variables",900,1800)
+    #create the canvases 
+    c1 = TCanvas("c1","Distributions of input variables",900,900)
+	c2 = TCanvas("c1","Distributions of input variables",900,900)
     #divide canvas in 2x4 SubCanvas
-    c1.Divide(2,4)
+    c1.Divide(2,2)
+	c2.Divide(2,2)
     #draw in the (1,1) coordinate of the canvas 
     c1.cd(1)
     #create an histogram that will contain the signal of the first variable
@@ -99,7 +101,7 @@ def Plot_Input_Variables():
     h4b.Draw("same") 
 
     #do the same for the fifth variable
-    c1.cd(5)
+    c2.cd(1)
     h5s = TH1F("tImpParV0_Signal","tImpParV0",100,-0.2,0.2)
     h5s.SetStats(0)
     h5s.SetFillColor(4)
@@ -118,7 +120,7 @@ def Plot_Input_Variables():
     h5b.Draw("same") 
     
     #do the same for the sixth variable
-    c1.cd(6)
+    c2.cd(2)
     h6s = TH1F("tImpParBach_Signal","tImpParBach",100,-0.1,0.1)
     h6s.SetStats(0)
     h6s.SetFillColor(4)
@@ -137,7 +139,7 @@ def Plot_Input_Variables():
     h6b.Draw("same") 
 
     #do the same for the seventh variable
-    c1.cd(7)
+    c2.cd(3)
     h7s = TH1F("DecayLengthK0S_Signal","DecayLengthK0S",100,-5,100)
     h7s.SetStats(0)
     h7s.SetFillColor(4)
@@ -156,7 +158,7 @@ def Plot_Input_Variables():
     h7b.Draw("same") 
 
     #do the same for the eighth variable
-    c1.cd(8)
+    c2.cd(4)
     h8s = TH1F("cosPAK0S_Signal","cosPAK0S",100,0.9999,1.00001)
     h8s.SetStats(0)
     h8s.SetFillColor(4)
@@ -180,5 +182,8 @@ def Plot_Input_Variables():
     legend.AddEntry(h1s,"Signal","f")
     legend.AddEntry(h1b,"Background","f")
     legend.Draw("same")
+	c2.cd(2)
+	legend.Draw("same")
     #save canvas on output file
-    c1.SaveAs("Input_Variables.root")
+    c1.SaveAs("Input_Variables_1.root")
+	c1.SaveAs("Input_Variables_2.root")

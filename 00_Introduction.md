@@ -11,7 +11,7 @@ One of the main problem in the study of this decay is connected to the extreme s
 ## TMVA 
 The Toolkit for Multivariate Data Analysis is an integrative package of ROOT.. It contains libraries and macros useful for the Multivariate analysis of data specifically designed for high energy physics. In this work the tool was used to compare three methods of multivariate analysis: Linear Cuts, Boosted Decision Trees and Neural Networks. The latest versions of ROOT are perfectly integrated with Python versions > 2.7, so it was possible to use all the ROOT libraries in the [notebook document](https://github.com/gianpierovignola/project/blob/master/01_TMVA_Program.ipynb). Software versions used (some will be explained below):
  
-
+<div align="center">
 | Name of Software  | Version |
 | ------------- | ------------- |
 | ROOT  | 6.22/03  |
@@ -20,5 +20,5 @@ The Toolkit for Multivariate Data Analysis is an integrative package of ROOT.. I
 | Python | 3.8.2 |
 | gcc | 9.3.0 |
 | System | Ubuntu 20.04.1 LTS |
-
+</div>
 

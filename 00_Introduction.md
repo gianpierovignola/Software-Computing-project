@@ -32,3 +32,11 @@ A decision tree is a series of binary decisions. Moving through the tree, region
 ## 2.3.Neural Network (MLP)
 Neural networks are a method of analysis composed of "neurons" that are activated or not depending on whether a certain threshold is exceeded in the functions that compose them. These functions are added linearly with some weight and the resulting function is passed to the next level. Multilayer Perceptrons (MLPs) are a type of neural networks where there are intermediate levels between input and output layers. In this type of network, loops are prevented.
 <p align="center"><img src="img/NN.png" alt="Example" width="50%" title="Example of MLP"><br><i><b>Example of MLP</i></b></p> 
+
+
+# 3 JSROOT
+In this project it was decided to test, and use to present the results, a new tool still under development: JSROOT.
+With JSROOT it is possible to view ROOT files on different browsers. It creates an interesting interactive graphical interface where you can zoom in/out, view real time data, change style, analyze subsets of data, draw additional information, etc.
+it is sufficient to pass the cursor over the image or press the right button to access all these functions.
+The software is updated and distributed for free on GitHub [https://github.com/root-project/jsroot](https://github.com/root-project/jsroot). It can be used directly on public servers such as [https://root.cern/js/](https://root.cern/js/) or installed on your web servers (necessary if you want to open .root files via personal URL).
+JSROOT is not currently optimized for direct use on GitHub, so it was necessary to install JSROOT on a personal web host. All graphical results presented with JSROOT in [Analysis_Results](https://github.com/gianpierovignola/project/blob/master/02_Analysis_Results.md) are contained in this server:[https://jsrootsoftwareandcomputing.000webhostapp.com/](https://jsrootsoftwareandcomputing.000webhostapp.com/)

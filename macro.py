@@ -14,10 +14,10 @@ def Plot_Input_Variables():
 
     #create the canvases 
     c1 = TCanvas("c1","Distributions of input variables",900,900)
-	c2 = TCanvas("c1","Distributions of input variables",900,900)
+    c2 = TCanvas("c2","Distributions of input variables",900,900)
     #divide canvas in 2x4 SubCanvas
     c1.Divide(2,2)
-	c2.Divide(2,2)
+    c2.Divide(2,2)
     #draw in the (1,1) coordinate of the canvas 
     c1.cd(1)
     #create an histogram that will contain the signal of the first variable
@@ -182,8 +182,8 @@ def Plot_Input_Variables():
     legend.AddEntry(h1s,"Signal","f")
     legend.AddEntry(h1b,"Background","f")
     legend.Draw("same")
-	c2.cd(2)
-	legend.Draw("same")
+    c2.cd(2)
+    legend.Draw("same")
     #save canvas on output file
     c1.SaveAs("Input_Variables_1.root")
-	c1.SaveAs("Input_Variables_2.root")
+    c2.SaveAs("Input_Variables_2.root")

@@ -21,4 +21,4 @@ The Toolkit for Multivariate Data Analysis is an integrative package of ROOT.. I
 
 ## 2.1.Linear Cuts 
 Is the simplest method of multivariate analysis. Each event is classified as a type 0 or type 1 by applying linear rectangular cuts to all input variables. The algorithm optimizes the values of the cuts by trying all the possible cuts on training sample. As will be illustrated in the [analysis of results](https://github.com/gianpierovignola/project/blob/master/02_Analysis_Results.md) this method was not very efficient in the analyzed sample (due to the high similarity between the signal and background events).
-<p align="center"><img src="img/cuts.png" alt="Example" width="40%" title="Linear rectangular cuts on 2 variable"><br><i><b>Linear rectangular cuts on 2 variable</i></b></p> 
+<p align="center"><img src="img/cuts.png" alt="Example" width="30%" title="Linear rectangular cuts on 2 variable"><br><i><b>Linear rectangular cuts on 2 variable</i></b></p> 

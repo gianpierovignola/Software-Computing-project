@@ -25,5 +25,10 @@ Is the simplest method of multivariate analysis. Each event is classified as a t
 
 
 ## 2.2.BDT
-A decision tree is a series of binary decisions. Moving through the tree, regions with higher signal or background purity are progressively selected. It is similar to rectangular cuts but with relationship between the consecutive cuts. generally to obtain an optimal decision tree (not too dependent on the training sample) boosting techniques are used. A "forest" of different trees is created basing on the same training sample, therefore a weighted average of the different trees is obtained trying to optimize the separation between signal and background.
+A decision tree is a series of binary decisions. Moving through the tree, regions with higher signal or background purity are progressively selected. It is similar to rectangular cuts but with relationship between the consecutive cuts. Generally to obtain an optimal decision tree (not too dependent on the training sample) boosting techniques are used. A "forest" of different trees is created basing on the same training sample, therefore a weighted average of the different trees is obtained trying to optimize the separation between signal and background.
 <p align="center"><img src="img/bdti.png" alt="Example" width="50%" title="Example of Decision Tree"><br><i><b>Example of Decision Tree</i></b></p> 
+
+
+## 2.3.Neural Network (MLP)
+Neural networks are a method of analysis composed of "neurons" that are activated or not depending on whether a certain threshold is exceeded in the functions that compose them. These functions are added linearly with some weight and the resulting function is passed to the next level. Multilayer Perceptrons (MLPs) are a type of neural networks where there are intermediate levels between input and output layers. In this type of network, loops are prevented.
+<p align="center"><img src="img/NN.png" alt="Example" width="50%" title="Example of MLP"><br><i><b>Example of MLP</i></b></p> 

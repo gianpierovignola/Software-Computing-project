@@ -1,0 +1,480 @@
+Factory                  : Train all methods
+Factory                  : [dataset] : Create Transformation "I" with events from all classes.
+                         : 
+                         : Transformation, Variable selection : 
+                         : Input : variable 'massK0S' <---> Output : variable 'massK0S'
+                         : Input : variable 'CosThetaStar' <---> Output : variable 'CosThetaStar'
+                         : Input : variable 'combinedProtonProb' <---> Output : variable 'combinedProtonProb'
+                         : Input : variable 'signd0' <---> Output : variable 'signd0'
+                         : Input : variable 'tImpParV0' <---> Output : variable 'tImpParV0'
+                         : Input : variable 'tImpParBach' <---> Output : variable 'tImpParBach'
+                         : Input : variable 'CtK0S' <---> Output : variable 'CtK0S'
+                         : Input : variable 'cosPAK0S' <---> Output : variable 'cosPAK0S'
+Factory                  : [dataset] : Create Transformation "D" with events from all classes.
+                         : 
+                         : Transformation, Variable selection : 
+                         : Input : variable 'massK0S' <---> Output : variable 'massK0S'
+                         : Input : variable 'CosThetaStar' <---> Output : variable 'CosThetaStar'
+                         : Input : variable 'combinedProtonProb' <---> Output : variable 'combinedProtonProb'
+                         : Input : variable 'signd0' <---> Output : variable 'signd0'
+                         : Input : variable 'tImpParV0' <---> Output : variable 'tImpParV0'
+                         : Input : variable 'tImpParBach' <---> Output : variable 'tImpParBach'
+                         : Input : variable 'CtK0S' <---> Output : variable 'CtK0S'
+                         : Input : variable 'cosPAK0S' <---> Output : variable 'cosPAK0S'
+Factory                  : [dataset] : Create Transformation "P" with events from all classes.
+                         : 
+                         : Transformation, Variable selection : 
+                         : Input : variable 'massK0S' <---> Output : variable 'massK0S'
+                         : Input : variable 'CosThetaStar' <---> Output : variable 'CosThetaStar'
+                         : Input : variable 'combinedProtonProb' <---> Output : variable 'combinedProtonProb'
+                         : Input : variable 'signd0' <---> Output : variable 'signd0'
+                         : Input : variable 'tImpParV0' <---> Output : variable 'tImpParV0'
+                         : Input : variable 'tImpParBach' <---> Output : variable 'tImpParBach'
+                         : Input : variable 'CtK0S' <---> Output : variable 'CtK0S'
+                         : Input : variable 'cosPAK0S' <---> Output : variable 'cosPAK0S'
+Factory                  : [dataset] : Create Transformation "G" with events from all classes.
+                         : 
+                         : Transformation, Variable selection : 
+                         : Input : variable 'massK0S' <---> Output : variable 'massK0S'
+                         : Input : variable 'CosThetaStar' <---> Output : variable 'CosThetaStar'
+                         : Input : variable 'combinedProtonProb' <---> Output : variable 'combinedProtonProb'
+                         : Input : variable 'signd0' <---> Output : variable 'signd0'
+                         : Input : variable 'tImpParV0' <---> Output : variable 'tImpParV0'
+                         : Input : variable 'tImpParBach' <---> Output : variable 'tImpParBach'
+                         : Input : variable 'CtK0S' <---> Output : variable 'CtK0S'
+                         : Input : variable 'cosPAK0S' <---> Output : variable 'cosPAK0S'
+Factory                  : [dataset] : Create Transformation "D" with events from all classes.
+                         : 
+                         : Transformation, Variable selection : 
+                         : Input : variable 'massK0S' <---> Output : variable 'massK0S'
+                         : Input : variable 'CosThetaStar' <---> Output : variable 'CosThetaStar'
+                         : Input : variable 'combinedProtonProb' <---> Output : variable 'combinedProtonProb'
+                         : Input : variable 'signd0' <---> Output : variable 'signd0'
+                         : Input : variable 'tImpParV0' <---> Output : variable 'tImpParV0'
+                         : Input : variable 'tImpParBach' <---> Output : variable 'tImpParBach'
+                         : Input : variable 'CtK0S' <---> Output : variable 'CtK0S'
+                         : Input : variable 'cosPAK0S' <---> Output : variable 'cosPAK0S'
+TFHandler_Factory        :           Variable                  Mean                  RMS          [        Min                  Max ]
+                         : -------------------------------------------------------------------------------------------------------------
+                         :            massK0S:             0.49800           0.0037719   [             0.48761             0.50761 ]
+                         :       CosThetaStar:            -0.19739             0.53944   [             -1.0000             0.99979 ]
+                         : combinedProtonProb:             0.68626             0.35112   [          9.4016e-05              1.0000 ]
+                         :             signd0:            0.015052            0.029574   [            -0.33961             0.60853 ]
+                         :          tImpParV0:          0.00065756             0.10587   [             -1.4998              1.4809 ]
+                         :        tImpParBach:         -0.00030935            0.042464   [            -0.49978             0.49998 ]
+                         :              CtK0S:              2.8976              2.6917   [            0.040745              112.34 ]
+                         :           cosPAK0S:             0.99984          0.00070720   [             0.99000              1.0000 ]
+                         : -------------------------------------------------------------------------------------------------------------
+                         : Preparing the Decorrelation transformation...
+TFHandler_Factory        :           Variable                  Mean                  RMS          [        Min                  Max ]
+                         : -------------------------------------------------------------------------------------------------------------
+                         :            massK0S:              127.88              1.0000   [              123.89              130.58 ]
+                         :       CosThetaStar:             0.19637              1.0000   [             -1.3873              2.4319 ]
+                         : combinedProtonProb:              1.9002              1.0000   [            -0.13181              2.8650 ]
+                         :             signd0:              1.6997              1.0000   [             -10.497              21.913 ]
+                         :          tImpParV0:            0.057654              1.0000   [             -14.123              14.025 ]
+                         :        tImpParBach:            0.037132              1.0000   [             -11.751              12.039 ]
+                         :              CtK0S:              1.0452              1.0000   [           -0.019655              41.697 ]
+                         :           cosPAK0S:              1464.5              1.0000   [              1450.0              1465.7 ]
+                         : -------------------------------------------------------------------------------------------------------------
+                         : Preparing the Principle Component (PCA) transformation...
+TFHandler_Factory        :           Variable                  Mean                  RMS          [        Min                  Max ]
+                         : -------------------------------------------------------------------------------------------------------------
+                         :            massK0S:          1.7572e-12              2.6918   [             -2.8546              109.44 ]
+                         :       CosThetaStar:         -3.7938e-12             0.54007   [             -1.2409             0.87218 ]
+                         : combinedProtonProb:         -1.1112e-11             0.34994   [            -0.38802             0.73955 ]
+                         :             signd0:          3.1003e-12             0.10588   [             -1.5013              1.4781 ]
+                         :          tImpParV0:         -6.7551e-13            0.042446   [            -0.51881             0.49988 ]
+                         :        tImpParBach:          3.7641e-13            0.029199   [            -0.60227             0.34533 ]
+                         :              CtK0S:          7.0251e-14           0.0037622   [           -0.015179            0.010073 ]
+                         :           cosPAK0S:          3.0484e-14          0.00068163   [          -0.0098738          0.00086940 ]
+                         : -------------------------------------------------------------------------------------------------------------
+                         : Preparing the Gaussian transformation...
+                         : Preparing the Decorrelation transformation...
+TFHandler_Factory        :           Variable                  Mean                  RMS          [        Min                  Max ]
+                         : -------------------------------------------------------------------------------------------------------------
+                         :            massK0S:           0.0030357              1.0000   [             -3.2401              5.9119 ]
+                         :       CosThetaStar:           -0.011886              1.0000   [             -4.4524              6.6624 ]
+                         : combinedProtonProb:           -0.021206              1.0000   [             -3.7953              1.7472 ]
+                         :             signd0:           -0.036002              1.0000   [             -5.4697              5.7416 ]
+                         :          tImpParV0:           0.0026099              1.0000   [             -3.4091              5.9078 ]
+                         :        tImpParBach:           0.0025599              1.0000   [             -3.4482              5.9118 ]
+                         :              CtK0S:           0.0060471              1.0000   [             -3.2875              6.3756 ]
+                         :           cosPAK0S:           -0.025845              1.0000   [             -4.0319              3.1498 ]
+                         : -------------------------------------------------------------------------------------------------------------
+                         : Ranking input variables (method unspecific)...
+IdTransformation         : Ranking result (top variable is best ranked)
+                         : -------------------------------------------
+                         : Rank : Variable           : Separation
+                         : -------------------------------------------
+                         :    1 : combinedProtonProb : 1.647e-01
+                         :    2 : CosThetaStar       : 4.566e-02
+                         :    3 : tImpParBach        : 2.876e-02
+                         :    4 : signd0             : 2.219e-02
+                         :    5 : cosPAK0S           : 3.655e-03
+                         :    6 : tImpParV0          : 2.719e-03
+                         :    7 : massK0S            : 5.168e-04
+                         :    8 : CtK0S              : 1.587e-04
+                         : -------------------------------------------
+Factory                  : Train method: Cuts for Classification
+                         : 
+FitterBase               : <MCFitter> Sampling, please be patient ...
+                         : Elapsed time: 90.3 sec                           
+                         : ------------------------------------------------------
+Cuts                     : Cut values for requested signal efficiency: 0.1
+                         : Corresponding background efficiency       : 0.0415092
+                         : Transformation applied to input variables : None
+                         : ------------------------------------------------------
+                         : Cut[ 0]:   0.488787 <            massK0S <=      1e+30
+                         : Cut[ 1]:  -0.811362 <       CosThetaStar <=      1e+30
+                         : Cut[ 2]:   0.858025 < combinedProtonProb <=      1e+30
+                         : Cut[ 3]:  -0.154298 <             signd0 <=      1e+30
+                         : Cut[ 4]:     -1e+30 <          tImpParV0 <=   0.940781
+                         : Cut[ 5]:  -0.204869 <        tImpParBach <=      1e+30
+                         : Cut[ 6]:    4.51652 <              CtK0S <=      1e+30
+                         : Cut[ 7]:   0.991789 <           cosPAK0S <=      1e+30
+                         : ------------------------------------------------------
+                         : ------------------------------------------------------
+Cuts                     : Cut values for requested signal efficiency: 0.2
+                         : Corresponding background efficiency       : 0.0717595
+                         : Transformation applied to input variables : None
+                         : ------------------------------------------------------
+                         : Cut[ 0]:   0.491423 <            massK0S <=      1e+30
+                         : Cut[ 1]:  -0.380663 <       CosThetaStar <=      1e+30
+                         : Cut[ 2]:   0.970477 < combinedProtonProb <=      1e+30
+                         : Cut[ 3]:  -0.203946 <             signd0 <=      1e+30
+                         : Cut[ 4]:     -1e+30 <          tImpParV0 <=     1.5092
+                         : Cut[ 5]: -0.0577787 <        tImpParBach <=      1e+30
+                         : Cut[ 6]: -0.0652479 <              CtK0S <=      1e+30
+                         : Cut[ 7]:   0.995706 <           cosPAK0S <=      1e+30
+                         : ------------------------------------------------------
+                         : ------------------------------------------------------
+Cuts                     : Cut values for requested signal efficiency: 0.3
+                         : Corresponding background efficiency       : 0.1275
+                         : Transformation applied to input variables : None
+                         : ------------------------------------------------------
+                         : Cut[ 0]:   0.489018 <            massK0S <=      1e+30
+                         : Cut[ 1]:  -0.762401 <       CosThetaStar <=      1e+30
+                         : Cut[ 2]:   0.719411 < combinedProtonProb <=      1e+30
+                         : Cut[ 3]:  -0.101929 <             signd0 <=      1e+30
+                         : Cut[ 4]:     -1e+30 <          tImpParV0 <=    1.38173
+                         : Cut[ 5]: -0.0189095 <        tImpParBach <=      1e+30
+                         : Cut[ 6]:    1.34543 <              CtK0S <=      1e+30
+                         : Cut[ 7]:   0.999412 <           cosPAK0S <=      1e+30
+                         : ------------------------------------------------------
+                         : ------------------------------------------------------
+Cuts                     : Cut values for requested signal efficiency: 0.4
+                         : Corresponding background efficiency       : -0.1
+                         : Transformation applied to input variables : None
+                         : ------------------------------------------------------
+                         : Cut[ 0]:          0 <            massK0S <=      1e+30
+                         : Cut[ 1]:          0 <       CosThetaStar <=      1e+30
+                         : Cut[ 2]:          0 < combinedProtonProb <=      1e+30
+                         : Cut[ 3]:          0 <             signd0 <=      1e+30
+                         : Cut[ 4]:     -1e+30 <          tImpParV0 <=          0
+                         : Cut[ 5]:          0 <        tImpParBach <=      1e+30
+                         : Cut[ 6]:          0 <              CtK0S <=      1e+30
+                         : Cut[ 7]:          0 <           cosPAK0S <=      1e+30
+                         : ------------------------------------------------------
+                         : ------------------------------------------------------
+Cuts                     : Cut values for requested signal efficiency: 0.5
+                         : Corresponding background efficiency       : -0.1
+                         : Transformation applied to input variables : None
+                         : ------------------------------------------------------
+                         : Cut[ 0]:          0 <            massK0S <=      1e+30
+                         : Cut[ 1]:          0 <       CosThetaStar <=      1e+30
+                         : Cut[ 2]:          0 < combinedProtonProb <=      1e+30
+                         : Cut[ 3]:          0 <             signd0 <=      1e+30
+                         : Cut[ 4]:     -1e+30 <          tImpParV0 <=          0
+                         : Cut[ 5]:          0 <        tImpParBach <=      1e+30
+                         : Cut[ 6]:          0 <              CtK0S <=      1e+30
+                         : Cut[ 7]:          0 <           cosPAK0S <=      1e+30
+                         : ------------------------------------------------------
+                         : ------------------------------------------------------
+Cuts                     : Cut values for requested signal efficiency: 0.6
+                         : Corresponding background efficiency       : -0.1
+                         : Transformation applied to input variables : None
+                         : ------------------------------------------------------
+                         : Cut[ 0]:          0 <            massK0S <=      1e+30
+                         : Cut[ 1]:          0 <       CosThetaStar <=      1e+30
+                         : Cut[ 2]:          0 < combinedProtonProb <=      1e+30
+                         : Cut[ 3]:          0 <             signd0 <=      1e+30
+                         : Cut[ 4]:     -1e+30 <          tImpParV0 <=          0
+                         : Cut[ 5]:          0 <        tImpParBach <=      1e+30
+                         : Cut[ 6]:          0 <              CtK0S <=      1e+30
+                         : Cut[ 7]:          0 <           cosPAK0S <=      1e+30
+                         : ------------------------------------------------------
+                         : ------------------------------------------------------
+Cuts                     : Cut values for requested signal efficiency: 0.7
+                         : Corresponding background efficiency       : -0.1
+                         : Transformation applied to input variables : None
+                         : ------------------------------------------------------
+                         : Cut[ 0]:          0 <            massK0S <=      1e+30
+                         : Cut[ 1]:          0 <       CosThetaStar <=      1e+30
+                         : Cut[ 2]:          0 < combinedProtonProb <=      1e+30
+                         : Cut[ 3]:          0 <             signd0 <=      1e+30
+                         : Cut[ 4]:     -1e+30 <          tImpParV0 <=          0
+                         : Cut[ 5]:          0 <        tImpParBach <=      1e+30
+                         : Cut[ 6]:          0 <              CtK0S <=      1e+30
+                         : Cut[ 7]:          0 <           cosPAK0S <=      1e+30
+                         : ------------------------------------------------------
+                         : ------------------------------------------------------
+Cuts                     : Cut values for requested signal efficiency: 0.8
+                         : Corresponding background efficiency       : -0.1
+                         : Transformation applied to input variables : None
+                         : ------------------------------------------------------
+                         : Cut[ 0]:          0 <            massK0S <=      1e+30
+                         : Cut[ 1]:          0 <       CosThetaStar <=      1e+30
+                         : Cut[ 2]:          0 < combinedProtonProb <=      1e+30
+                         : Cut[ 3]:          0 <             signd0 <=      1e+30
+                         : Cut[ 4]:     -1e+30 <          tImpParV0 <=          0
+                         : Cut[ 5]:          0 <        tImpParBach <=      1e+30
+                         : Cut[ 6]:          0 <              CtK0S <=      1e+30
+                         : Cut[ 7]:          0 <           cosPAK0S <=      1e+30
+                         : ------------------------------------------------------
+                         : ------------------------------------------------------
+Cuts                     : Cut values for requested signal efficiency: 0.9
+                         : Corresponding background efficiency       : -0.1
+                         : Transformation applied to input variables : None
+                         : ------------------------------------------------------
+                         : Cut[ 0]:          0 <            massK0S <=      1e+30
+                         : Cut[ 1]:          0 <       CosThetaStar <=      1e+30
+                         : Cut[ 2]:          0 < combinedProtonProb <=      1e+30
+                         : Cut[ 3]:          0 <             signd0 <=      1e+30
+                         : Cut[ 4]:     -1e+30 <          tImpParV0 <=          0
+                         : Cut[ 5]:          0 <        tImpParBach <=      1e+30
+                         : Cut[ 6]:          0 <              CtK0S <=      1e+30
+                         : Cut[ 7]:          0 <           cosPAK0S <=      1e+30
+                         : ------------------------------------------------------
+                         : Elapsed time for training with 376183 events: 91.2 sec         
+Cuts                     : [dataset] : Evaluation of Cuts on training sample (376183 events)
+                         : Elapsed time for evaluation of 376183 events: 0.0138 sec       
+                         : Creating xml weight file: dataset/weights/TMVAClassification_Cuts.weights.xml
+                         : Creating standalone class: dataset/weights/TMVAClassification_Cuts.class.C
+                         : TMVA_output_4_6.root:/dataset/Method_Cuts/Cuts
+Factory                  : Training finished
+                         : 
+Factory                  : Train method: BDT for Classification
+                         : 
+BDT                      : #events: (reweighted) sig: 188092 bkg: 188092
+                         : #events: (unweighted) sig: 249705 bkg: 126478
+                         : Training 850 Decision Trees ... patience please
+                         : Elapsed time for training with 376183 events: 201 sec         
+BDT                      : [dataset] : Evaluation of BDT on training sample (376183 events)
+                         : Elapsed time for evaluation of 376183 events: 42.7 sec       
+                         : Creating xml weight file: dataset/weights/TMVAClassification_BDT.weights.xml
+                         : Creating standalone class: dataset/weights/TMVAClassification_BDT.class.C
+                         : TMVA_output_4_6.root:/dataset/Method_BDT/BDT
+Factory                  : Training finished
+                         : 
+Factory                  : Train method: MLP for Classification
+                         : 
+                         : 
+                         : ================================================================
+                         : H e l p   f o r   M V A   m e t h o d   [ MLP ] :
+                         : 
+                         : --- Short description:
+                         : 
+                         : The MLP artificial neural network (ANN) is a traditional feed-
+                         : forward multilayer perceptron implementation. The MLP has a user-
+                         : defined hidden layer architecture, while the number of input (output)
+                         : nodes is determined by the input variables (output classes, i.e., 
+                         : signal and one background). 
+                         : 
+                         : --- Performance optimisation:
+                         : 
+                         : Neural networks are stable and performing for a large variety of 
+                         : linear and non-linear classification problems. However, in contrast
+                         : to (e.g.) boosted decision trees, the user is advised to reduce the 
+                         : number of input variables that have only little discrimination power. 
+                         : 
+                         : In the tests we have carried out so far, the MLP and ROOT networks
+                         : (TMlpANN, interfaced via TMVA) performed equally well, with however
+                         : a clear speed advantage for the MLP. The Clermont-Ferrand neural 
+                         : net (CFMlpANN) exhibited worse classification performance in these
+                         : tests, which is partly due to the slow convergence of its training
+                         : (at least 10k training cycles are required to achieve approximately
+                         : competitive results).
+                         : 
+                         : Overtraining: only the TMlpANN performs an explicit separation of the
+                         : full training sample into independent training and validation samples.
+                         : We have found that in most high-energy physics applications the 
+                         : available degrees of freedom (training events) are sufficient to 
+                         : constrain the weights of the relatively simple architectures required
+                         : to achieve good performance. Hence no overtraining should occur, and 
+                         : the use of validation samples would only reduce the available training
+                         : information. However, if the performance on the training sample is 
+                         : found to be significantly better than the one found with the inde-
+                         : pendent test sample, caution is needed. The results for these samples 
+                         : are printed to standard output at the end of each training job.
+                         : 
+                         : --- Performance tuning via configuration options:
+                         : 
+                         : The hidden layer architecture for all ANNs is defined by the option
+                         : "HiddenLayers=N+1,N,...", where here the first hidden layer has N+1
+                         : neurons and the second N neurons (and so on), and where N is the number  
+                         : of input variables. Excessive numbers of hidden layers should be avoided,
+                         : in favour of more neurons in the first hidden layer.
+                         : 
+                         : The number of cycles should be above 500. As said, if the number of
+                         : adjustable weights is small compared to the training sample size,
+                         : using a large number of training samples should not lead to overtraining.
+                         : 
+                         : <Suppress this message by specifying "!H" in the booking option>
+                         : ================================================================
+                         : 
+TFHandler_MLP            :           Variable                  Mean                  RMS          [        Min                  Max ]
+                         : -------------------------------------------------------------------------------------------------------------
+                         :            massK0S:            0.038934             0.37720   [             -1.0000              1.0000 ]
+                         :       CosThetaStar:            -0.19731             0.53950   [             -1.0000              1.0000 ]
+                         : combinedProtonProb:             0.37247             0.70231   [             -1.0000              1.0000 ]
+                         :             signd0:            -0.25188            0.062383   [             -1.0000              1.0000 ]
+                         :          tImpParV0:           0.0067949            0.071035   [             -1.0000              1.0000 ]
+                         :        tImpParBach:         -0.00081660            0.084949   [             -1.0000              1.0000 ]
+                         :              CtK0S:            -0.94912            0.047941   [             -1.0000              1.0000 ]
+                         :           cosPAK0S:             0.96886             0.14144   [             -1.0000              1.0000 ]
+                         : -------------------------------------------------------------------------------------------------------------
+                         : Training Network
+                         : 
+                         : Elapsed time for training with 376183 events: 1.84e+03 sec         
+MLP                      : [dataset] : Evaluation of MLP on training sample (376183 events)
+                         : Elapsed time for evaluation of 376183 events: 1.05 sec       
+                         : Creating xml weight file: dataset/weights/TMVAClassification_MLP.weights.xml
+                         : Creating standalone class: dataset/weights/TMVAClassification_MLP.class.C
+                         : Write special histos to file: TMVA_output_4_6.root:/dataset/Method_MLP/MLP
+Factory                  : Training finished
+                         : 
+                         : Ranking input variables (method specific)...
+                         : No variable ranking supplied by classifier: Cuts
+BDT                      : Ranking result (top variable is best ranked)
+                         : ----------------------------------------------------
+                         : Rank : Variable           : Variable Importance
+                         : ----------------------------------------------------
+                         :    1 : combinedProtonProb : 2.741e-01
+                         :    2 : tImpParBach        : 1.432e-01
+                         :    3 : CosThetaStar       : 1.378e-01
+                         :    4 : signd0             : 1.299e-01
+                         :    5 : tImpParV0          : 9.213e-02
+                         :    6 : massK0S            : 8.877e-02
+                         :    7 : cosPAK0S           : 7.676e-02
+                         :    8 : CtK0S              : 5.734e-02
+                         : ----------------------------------------------------
+MLP                      : Ranking result (top variable is best ranked)
+                         : -------------------------------------------
+                         : Rank : Variable           : Importance
+                         : -------------------------------------------
+                         :    1 : signd0             : 1.598e+02
+                         :    2 : combinedProtonProb : 5.686e+01
+                         :    3 : cosPAK0S           : 2.985e+01
+                         :    4 : CtK0S              : 1.808e+01
+                         :    5 : tImpParBach        : 7.753e+00
+                         :    6 : CosThetaStar       : 6.636e+00
+                         :    7 : tImpParV0          : 1.997e-01
+                         :    8 : massK0S            : 6.506e-02
+                         : -------------------------------------------
+Factory                  : === Destroy and recreate all methods via weight files for testing ===
+                         : 
+                         : Reading weight file: dataset/weights/TMVAClassification_Cuts.weights.xml
+                         : Read cuts optimised using sample of MC events
+                         : Reading 100 signal efficiency bins for 8 variables
+                         : Reading weight file: dataset/weights/TMVAClassification_BDT.weights.xml
+                         : Reading weight file: dataset/weights/TMVAClassification_MLP.weights.xml
+MLP                      : Building Network. 
+                         : Initializing weights
+Factory                  : Test all methods
+Factory                  : Test method: Cuts for Classification performance
+                         : 
+Cuts                     : [dataset] : Evaluation of Cuts on testing sample (376183 events)
+                         : Elapsed time for evaluation of 376183 events: 0.0135 sec       
+Factory                  : Test method: BDT for Classification performance
+                         : 
+BDT                      : [dataset] : Evaluation of BDT on testing sample (376183 events)
+                         : Elapsed time for evaluation of 376183 events: 21.1 sec       
+Factory                  : Test method: MLP for Classification performance
+                         : 
+MLP                      : [dataset] : Evaluation of MLP on testing sample (376183 events)
+                         : Elapsed time for evaluation of 376183 events: 1.08 sec       
+Factory                  : Evaluate all methods
+Factory                  : Evaluate classifier: Cuts
+                         : 
+<WARNING>                : You have asked for histogram MVA_EFF_BvsS which does not seem to exist in *Results* .. better don't use it 
+<WARNING>                : You have asked for histogram EFF_BVSS_TR which does not seem to exist in *Results* .. better don't use it 
+<WARNING>                :  unable to fill 50 efficiency bins 
+TFHandler_Cuts           :           Variable                  Mean                  RMS          [        Min                  Max ]
+                         : -------------------------------------------------------------------------------------------------------------
+                         :            massK0S:             0.49800           0.0037743   [             0.48762             0.50761 ]
+                         :       CosThetaStar:            -0.19831             0.53988   [            -0.99999             0.99770 ]
+                         : combinedProtonProb:             0.68777             0.35063   [          4.6705e-05              1.0000 ]
+                         :             signd0:            0.015172            0.030026   [           -0.021339             0.61503 ]
+                         :          tImpParV0:          0.00083191             0.10534   [             -1.4996              1.4935 ]
+                         :        tImpParBach:         -0.00038100            0.042627   [            -0.49963             0.49954 ]
+                         :              CtK0S:              2.8951              2.6924   [            0.033225              125.20 ]
+                         :           cosPAK0S:             0.99985          0.00070242   [             0.99000              1.0000 ]
+                         : -------------------------------------------------------------------------------------------------------------
+Factory                  : Evaluate classifier: BDT
+                         : 
+BDT                      : [dataset] : Loop over test events and fill histograms with classifier response...
+                         : 
+TFHandler_BDT            :           Variable                  Mean                  RMS          [        Min                  Max ]
+                         : -------------------------------------------------------------------------------------------------------------
+                         :            massK0S:             0.49800           0.0037743   [             0.48762             0.50761 ]
+                         :       CosThetaStar:            -0.19831             0.53988   [            -0.99999             0.99770 ]
+                         : combinedProtonProb:             0.68777             0.35063   [          4.6705e-05              1.0000 ]
+                         :             signd0:            0.015172            0.030026   [           -0.021339             0.61503 ]
+                         :          tImpParV0:          0.00083191             0.10534   [             -1.4996              1.4935 ]
+                         :        tImpParBach:         -0.00038100            0.042627   [            -0.49963             0.49954 ]
+                         :              CtK0S:              2.8951              2.6924   [            0.033225              125.20 ]
+                         :           cosPAK0S:             0.99985          0.00070242   [             0.99000              1.0000 ]
+                         : -------------------------------------------------------------------------------------------------------------
+Factory                  : Evaluate classifier: MLP
+                         : 
+TFHandler_MLP            :           Variable                  Mean                  RMS          [        Min                  Max ]
+                         : -------------------------------------------------------------------------------------------------------------
+                         :            massK0S:            0.039056             0.37744   [            -0.99988             0.99988 ]
+                         :       CosThetaStar:            -0.19822             0.53994   [            -0.99999             0.99792 ]
+                         : combinedProtonProb:             0.37549             0.70133   [             -1.0001              1.0000 ]
+                         :             signd0:            -0.25163            0.063337   [            -0.32864              1.0137 ]
+                         :          tImpParV0:           0.0069119            0.070683   [            -0.99989              1.0084 ]
+                         :        tImpParBach:         -0.00095993            0.085274   [            -0.99969             0.99911 ]
+                         :              CtK0S:            -0.94916            0.047953   [             -1.0001              1.2291 ]
+                         :           cosPAK0S:             0.96921             0.14048   [            -0.99976              1.0000 ]
+                         : -------------------------------------------------------------------------------------------------------------
+MLP                      : [dataset] : Loop over test events and fill histograms with classifier response...
+                         : 
+TFHandler_MLP            :           Variable                  Mean                  RMS          [        Min                  Max ]
+                         : -------------------------------------------------------------------------------------------------------------
+                         :            massK0S:            0.039056             0.37744   [            -0.99988             0.99988 ]
+                         :       CosThetaStar:            -0.19822             0.53994   [            -0.99999             0.99792 ]
+                         : combinedProtonProb:             0.37549             0.70133   [             -1.0001              1.0000 ]
+                         :             signd0:            -0.25163            0.063337   [            -0.32864              1.0137 ]
+                         :          tImpParV0:           0.0069119            0.070683   [            -0.99989              1.0084 ]
+                         :        tImpParBach:         -0.00095993            0.085274   [            -0.99969             0.99911 ]
+                         :              CtK0S:            -0.94916            0.047953   [             -1.0001              1.2291 ]
+                         :           cosPAK0S:             0.96921             0.14048   [            -0.99976              1.0000 ]
+                         : -------------------------------------------------------------------------------------------------------------
+                         : 
+                         : Evaluation results ranked by best signal efficiency and purity (area)
+                         : -------------------------------------------------------------------------------------------------------------------
+                         : DataSet       MVA                       
+                         : Name:         Method:          ROC-integ
+                         : dataset       BDT            : 0.785
+                         : dataset       MLP            : 0.782
+                         : dataset       Cuts           : 0.616
+                         : -------------------------------------------------------------------------------------------------------------------
+                         : 
+                         : Testing efficiency compared to training efficiency (overtraining check)
+                         : -------------------------------------------------------------------------------------------------------------------
+                         : DataSet              MVA              Signal efficiency: from test sample (from training sample) 
+                         : Name:                Method:          @B=0.01             @B=0.10            @B=0.30   
+                         : -------------------------------------------------------------------------------------------------------------------
+                         : dataset              BDT            : 0.072 (0.072)       0.385 (0.387)      0.714 (0.714)
+                         : dataset              MLP            : 0.067 (0.066)       0.371 (0.373)      0.708 (0.708)
+                         : dataset              Cuts           : 0.039 (0.036)       0.144 (0.222)      0.422 (0.414)
+                         : -------------------------------------------------------------------------------------------------------------------
+                         : 
+Dataset:dataset          : Created tree 'TestTree' with 376183 events
+                         : 
+Dataset:dataset          : Created tree 'TrainTree' with 376183 events
+                         : 
+Factory                  : Thank you for using TMVA!
+                         : For citation information, please visit: http://tmva.sf.net/citeTMVA.html

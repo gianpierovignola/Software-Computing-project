@@ -57,6 +57,16 @@ The comparison between signal and background of the input variables is represent
 </td></tr>
 </table>
 
+<center>
+ <a href="https://jsrootsoftwareandcomputing.000webhostapp.com/rootfile/Input_Variables_1.html"> 
+        <img src="img/Input_Variables_1.jpg" width="30%" align="center" title="Input_Variables_1.jpg">
+    </a>
+
+<a href="https://jsrootsoftwareandcomputing.000webhostapp.com/rootfile/Input_Variables_2.html"> 
+        <img src="img/Input_Variables_2.jpg" width="30%" align="center" title="Input_Variables_2.jpg">
+    </a>
+</center>
+
 
 ## 3.Correlation Coefficents 
 ## 4.Classifier Output

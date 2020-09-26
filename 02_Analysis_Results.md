@@ -49,7 +49,6 @@ The comparison between signal and background of the input variables is represent
     <a href="https://jsrootsoftwareandcomputing.000webhostapp.com/rootfile/Input_Variables_1.html" target="_blank"> 
         <img src="img/Input_Variables_1.jpg" width="100%" align="center" title="Input_Variables_1.jpg">
     </a>
-<td>        </td>
 </td><td>
     <a href="https://jsrootsoftwareandcomputing.000webhostapp.com/rootfile/Input_Variables_2.html" target="_blank"> 
         <img src="img/Input_Variables_2.jpg" width="100%" align="center" title="Input_Variables_2.jpg">

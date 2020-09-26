@@ -42,22 +42,69 @@ Below is a brief description of the variables that it was decided to use in the 
 * <b>CtK0S</b>: (DecayLengthK0S * 0.497 / v0P) life-time of the K<sub>s</sub><sup>0</sup>, corresponds to the distance traveled by the K<sub>s</sub><sup>0</sup> multiplied by its mass and divided by its impulse. <br> <br>
 * <b>cosPAK0S</b>: cosine of the pointing angle: angle between the reconstructed trace of the K<sub>s</sub><sup>0</sup> and the line passing through the primary vertex and that of decay of the K<sub>s</sub><sup>0</sup> (close to 1). <br> <br>
 
-The comparison between signal and background of the input variables is represented in the following graphs (<b>click on it to open the view in JSROOT</b>). The two canvases were obtained using the macro written in pyROOT [macro.py](https://github.com/gianpierovignola/project/blob/master/JSROOT/macro.py).
-<br><br>
+The comparison between signal and background of the input variables is represented in the following graphs (<b>click on it to open the JSROOT view</b>). The two canvases were obtained using the macro written in pyROOT [macro.py](https://github.com/gianpierovignola/project/blob/master/JSROOT/macro.py).
+<br>
 <table cellspacing="0" cellpadding="0" width="70%">
 <tr><td>
     <a href="https://jsrootsoftwareandcomputing.000webhostapp.com/rootfile/Input_Variables_1.html" target="_blank"> 
-        <img src="img/Input_Variables_1.jpg" width="100%" align="center" title="Input_Variables_1.jpg">
+        <img src="img/Input_Variables_1.jpg" width="100%" align="center" title="Input_Variables_1">
     </a>
 </td><td>
     <a href="https://jsrootsoftwareandcomputing.000webhostapp.com/rootfile/Input_Variables_2.html" target="_blank"> 
-        <img src="img/Input_Variables_2.jpg" width="100%" align="center" title="Input_Variables_2.jpg">
+        <img src="img/Input_Variables_2.jpg" width="100%" align="center" title="Input_Variables_2">
     </a>
 </td></tr>
 </table>
+<br><br>
 
-## 3.Correlation Coefficents 
+## 3.Correlation Coefficents
+In a good set of variables, there must be as little correlation as possible. Adding a correlated variable increases the complexity of the multivariate analysis without increasing the accuracy of the results. Using the ROOT macro [correlations.cxx](https://github.com/gianpierovignola/project/blob/master/JSROOT/correlations.cxx) it was possible to produce the following correlation plots (<b> click on it to open the JSROOT view </b>):
+<br><br>
+<table cellspacing="0" cellpadding="0" width="70%">
+<tr><td>
+    <a href="https://jsrootsoftwareandcomputing.000webhostapp.com/rootfile/CorrelationMatrixS.html" target="_blank"> 
+        <img src="img/CorrelationMatrixS.jpg" width="100%" align="center" title="CorrelationMatrixS">
+    </a>
+</td><td>
+    <a href="https://jsrootsoftwareandcomputing.000webhostapp.com/rootfile/CorrelationMatrixB.html" target="_blank"> 
+        <img src="img/CorrelationMatrixB.jpg" width="100%" align="center" title="CorrelationMatrixB">
+    </a>
+</td></tr>
+</table>
+<br><br>
+
 ## 4.Classifier Output
+The three methods tested led to good results only for BDT and MLP. The method of rectangular cuts proved to be particularly inefficient. This is due to the fact that the difference between signal and background in the input variables is very small. Under these conditions only the most complex methods are able to give satisfactory results. <br>
+After TMVA Training and Testing the BDT and MLP classifiers produce a "response function" for signal and Background. The goal is to obtain functions as separate as possible in order to be able to separate the signal and the Background events. The following figures are obtained using the [mvas.cxx](https://github.com/gianpierovignola/project/blob/master/JSROOT/mvas.cxx) macro which uses the [weights](https://github.com/gianpierovignola/project/tree/master/Results/dataset/weights) produced by TMVA. To evaluate the possible presence of overtraining, the functions obtained in Training and Testing were superimposed, the perfect correspondence between the two confirms the absence of overtraining (<b> click on images to open the JSROOT view </b>).
+<br><br>
+<table cellspacing="0" cellpadding="0" width="70%">
+<tr><td>
+    <a href="https://jsrootsoftwareandcomputing.000webhostapp.com/rootfile/ClassifierOutputBDT.html" target="_blank"> 
+        <img src="img/ClassifierOutputBDT.jpg" width="100%" align="center" title="ClassifierOutputBDT">
+    </a>
+</td><td>
+    <a href="https://jsrootsoftwareandcomputing.000webhostapp.com/rootfile/ClassifierOutputMLP.html" target="_blank"> 
+        <img src="img/ClassifierOutputMLP.jpg" width="100%" align="center" title="ClassifierOutputMLP">
+    </a>
+</td></tr>
+</table>
+<br><br>
+
 ## 5.Cuts
+Depending on the cut used in the response function domain, the efficiencies of Signal and Background changes. In the following graphs, created with the macro [mvaeff.cxx](https://github.com/gianpierovignola/project/blob/master/JSROOT/mvaeffs.cxx), it is possible to visualize the values of the efficiencies obtained. significance is also indicated, a parameter that we try to maximize in the analysis. It is defined as $S/sqrt(S + B)$ where S and B are number of Signal and Background events. The maximum of significance represents the optimal cut value.
+<br><br>
+<table cellspacing="0" cellpadding="0" width="70%">
+<tr><td>
+    <a href="https://jsrootsoftwareandcomputing.000webhostapp.com/rootfile/CutBDT.html" target="_blank"> 
+        <img src="img/CutBDT.jpg" width="100%" align="center" title="CutBDT">
+    </a>
+</td><td>
+    <a href="https://jsrootsoftwareandcomputing.000webhostapp.com/rootfile/CutMLP.html" target="_blank"> 
+        <img src="img/CutMLP.jpg" width="100%" align="center" title="CutMLP">
+    </a>
+</td></tr>
+</table>
+<br><br>
+
 ## 6.ROC Curves 
 ## 7.Graphical Representation of BDT and MLP

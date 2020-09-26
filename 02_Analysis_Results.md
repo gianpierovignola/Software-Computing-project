@@ -57,15 +57,15 @@ The comparison between signal and background of the input variables is represent
 </td></tr>
 </table>
 
-<center>
+<div style="text-align:center">
  <a href="https://jsrootsoftwareandcomputing.000webhostapp.com/rootfile/Input_Variables_1.html"> 
         <img src="img/Input_Variables_1.jpg" width="30%" align="center" title="Input_Variables_1.jpg">
     </a>
-
+ <\t><\t>           
 <a href="https://jsrootsoftwareandcomputing.000webhostapp.com/rootfile/Input_Variables_2.html"> 
         <img src="img/Input_Variables_2.jpg" width="30%" align="center" title="Input_Variables_2.jpg">
     </a>
-</center>
+</div>
 
 
 ## 3.Correlation Coefficents 

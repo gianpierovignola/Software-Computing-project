@@ -44,13 +44,13 @@ Below is a brief description of the variables that it was decided to use in the 
 
 The comparison between signal and background of the input variables is represented in the following graphs (<b>click on it to open the view in JSROOT</b>). The two canvases were obtained using the macro written in pyROOT [macro.py](https://github.com/gianpierovignola/project/blob/master/JSROOT/macro.py).
 <br><br>
-<table cellspacing="0" cellpadding="0" style="width:70%">
+<table cellspacing="0" cellpadding="0" width="70%">
 <tr><td>
-    <a href="https://jsrootsoftwareandcomputing.000webhostapp.com/rootfile/Input_Variables_1.html"> 
+    <a href="https://jsrootsoftwareandcomputing.000webhostapp.com/rootfile/Input_Variables_1.html" target="_blank"> 
         <img src="img/Input_Variables_1.jpg" width="100%" align="center" title="Input_Variables_1.jpg">
     </a>
 </td><td>
-    <a href="https://jsrootsoftwareandcomputing.000webhostapp.com/rootfile/Input_Variables_2.html"> 
+    <a href="https://jsrootsoftwareandcomputing.000webhostapp.com/rootfile/Input_Variables_2.html" target="_blank"> 
         <img src="img/Input_Variables_2.jpg" width="100%" align="center" title="Input_Variables_2.jpg">
     </a>
 </td></tr>

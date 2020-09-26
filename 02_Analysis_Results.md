@@ -49,15 +49,14 @@ The comparison between signal and background of the input variables is represent
     <a href="https://jsrootsoftwareandcomputing.000webhostapp.com/rootfile/Input_Variables_1.html" target="_blank"> 
         <img src="img/Input_Variables_1.jpg" width="100%" align="center" title="Input_Variables_1.jpg">
     </a>
+<td>        </td>
 </td><td>
     <a href="https://jsrootsoftwareandcomputing.000webhostapp.com/rootfile/Input_Variables_2.html" target="_blank"> 
         <img src="img/Input_Variables_2.jpg" width="100%" align="center" title="Input_Variables_2.jpg">
     </a>
 </td></tr>
 </table>
-<a href="https://root.cern/js/latest/?nobrowser&file=../files/hsimple.root&item=ntuple;1&opt=px:py::pz%3E4" onclick="return ! window.open(this.href);"><img src="https://root.cern/js/files/img/ttree.png" align="left" hspace="10" vspace="6" alt="TTree::Draw()" title="2-dimensional TTree::Draw with cut options"></a>
 
-[<img src="https://root.cern/js/files/img/ttree.png" align="left" hspace="10" vspace="6" alt="TTree::Draw()" title="2-dimensional TTree::Draw with cut options">](https://root.cern/js/latest/?nobrowser&file=../files/hsimple.root&item=ntuple;1&opt=px:py::pz%3E4?target="_blank")
 
 ## 3.Correlation Coefficents 
 ## 4.Classifier Output

@@ -112,7 +112,7 @@ One of the best ways to compare the efficiency of multivariate analysis methods 
 As it is possible to see from the ROC curve (realized with the macro [efficiencies.cxx](https://github.com/gianpierovignola/project/blob/master/JSROOT/efficiencies.cxx)) the BDT and MLP methods have almost identical performances (more quantitative details in the file [std_output.txt](https://github.com/gianpierovignola/project/blob/master/Results/std_output.txt)). The Linear Cuts method, on the other hand, is totally unsuitable. it is almost comparable to a random assignment of the data type.(<b> click on images to open the JSROOT view </b>).
 
 <a href="https://jsrootsoftwareandcomputing.000webhostapp.com/rootfile/ROC.html" target="_blank"> 
-        <img src="img/ROC.jpg"  align="center" title="ROC" hspace="10" vspace="6">
+        <img src="img/ROC.jpg"  align="center" title="ROC" hspace="100" vspace="60">
     </a>
 
 ## 7.Graphical Representation of BDT and MLP

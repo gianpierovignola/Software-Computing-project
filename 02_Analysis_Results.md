@@ -5,7 +5,7 @@ The TMVA class in ROOT contains a function (<i> TMVA::TMVAGui</i>) that allows t
 ## 1.Monte Carlo Simulation
 
 Before analyzing the results, it is useful to describe the trees used as a simulation of decay events Λ<sub>c</sub><sup>+</sup> → p+K<sub>s</sub> (signal and background).<br>
-The simulation was carried out with the AliRoot(1) framework using the event generator HIJING(2)(Pb-Pb collisions) + PYTHIA(3)(p-p collisions). Using GEANT3(4), the response of the entire ALICE detector was then evaluated and 2 trees of Signal and Backgrounds were generated containing all the available measurements with the detectors. The output file of simulation (AnalysisResults.root) can not be shared due to size and copyright issues. Thanks to prof. Andrea Alici for making this database available. <br>
+The simulation was carried out with the AliRoot(1) framework using the event generator HIJING(2)(Pb-Pb collisions) + PYTHIA(3)(p-p collisions). Using GEANT3(4), the response of the entire ALICE detector was then evaluated and 2 trees of Signal and Backgrounds were generated containing all the available measurements with the detectors. The output file of simulation (AnalysisResults.root) can not be shared due to size and copyright issues. I would like to thank prof. Andrea Alici for making this database available. <br>
 The table summarizes the number of simulated events used for this analysis:
 
 |Description|Number|

@@ -111,15 +111,26 @@ Depending on the cut used in the response function domain, the efficiencies of S
 One of the best ways to compare the efficiency of multivariate analysis methods is to look at the Receiver-Operating-Characteristic (ROC) curves. These represent the relationship between signal efficiency and background rejection. In an optimal situation one would like to reject all the Background maintaining the maximum signal efficiency. The working point on a curved ROC is chosen according to the analysis needs. For example, in the trigger selection high signal efficency is required while for precision measurements a high reduction of the background is preferred. <br>
 As it is possible to see from the ROC curve (realized with the macro [efficiencies.cxx](https://github.com/gianpierovignola/project/blob/master/JSROOT/efficiencies.cxx)) the BDT and MLP methods have almost identical performances (more quantitative details in the file [std_output.txt](https://github.com/gianpierovignola/project/blob/master/Results/std_output.txt)). The Linear Cuts method, on the other hand, is totally unsuitable. it is almost comparable to a random assignment of the data type.(<b> click on images to open the JSROOT view </b>).
 
+<div id="container">
 <a href="https://jsrootsoftwareandcomputing.000webhostapp.com/rootfile/ROC.html" target="_blank"> 
         <img src="img/ROC.jpg"  align="center" title="ROC" >
     </a>
+</div>    
 
 ## 7.Graphical Representation of BDT and MLP
 Using the macros [network.cxx](https://github.com/gianpierovignola/project/blob/master/JSROOT/network.cxx) and [BDT.cxx](https://github.com/gianpierovignola/project/blob/master/JSROOT/BDT.cxx) it is possible to draw the structure of the realized Neural Network (with a graphic representation of the weights given to the variables and connection between neurons) and the realized BDTs (subsequently averaged with boosting). an example below:
 <br><br>
-![](img/network.png | width=50)
 <img src="img/network.png" width="100%" align="center" title="MLP">
 <br><br>
 <img src="img/BDT_0.png"  align="center" title="BDT" >
 <br><br>
+
+#container {
+    height:100px;
+    line-height:100px;
+}
+
+#container img {
+    vertical-align:middle;
+    max-height:100%;
+}

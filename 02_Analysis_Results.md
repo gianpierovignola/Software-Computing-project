@@ -47,11 +47,11 @@ The comparison between signal and background of the input variables is represent
 <table cellspacing="0" cellpadding="0" width="70%">
 <tr><td>
     <a href="https://jsrootsoftwareandcomputing.000webhostapp.com/rootfile/Input_Variables_1.html" target="_blank"> 
-        <img src="img/Input_Variables_1.jpg" width="100%" align="center" title="Input_Variables_1.jpg">
+        <img src="img/Input_Variables_1.png" width="100%" align="center" title="Input_Variables_1">
     </a>
 </td><td>
     <a href="https://jsrootsoftwareandcomputing.000webhostapp.com/rootfile/Input_Variables_2.html" target="_blank"> 
-        <img src="img/Input_Variables_2.jpg" width="100%" align="center" title="Input_Variables_2.jpg">
+        <img src="img/Input_Variables_2.png" width="100%" align="center" title="Input_Variables_2">
     </a>
 </td></tr>
 </table>
@@ -63,11 +63,11 @@ In a good set of variables, there must be as little correlation as possible. Add
 <table cellspacing="0" cellpadding="0" width="70%">
 <tr><td>
     <a href="https://jsrootsoftwareandcomputing.000webhostapp.com/rootfile/CorrelationMatrixS.html" target="_blank"> 
-        <img src="img/CorrelationMatrixS.jpg" width="100%" align="center" title="CorrelationMatrixS">
+        <img src="img/CorrelationMatrixS.png" width="100%" align="center" title="CorrelationMatrixS">
     </a>
 </td><td>
     <a href="https://jsrootsoftwareandcomputing.000webhostapp.com/rootfile/CorrelationMatrixB.html" target="_blank"> 
-        <img src="img/CorrelationMatrixB.jpg" width="100%" align="center" title="CorrelationMatrixB">
+        <img src="img/CorrelationMatrixB.png" width="100%" align="center" title="CorrelationMatrixB">
     </a>
 </td></tr>
 </table>
@@ -80,11 +80,11 @@ After TMVA Training and Testing the BDT and MLP classifiers produce a "response 
 <table cellspacing="0" cellpadding="0" width="70%">
 <tr><td>
     <a href="https://jsrootsoftwareandcomputing.000webhostapp.com/rootfile/ClassifierOutputBDT.html" target="_blank"> 
-        <img src="img/ClassifierOutputBDT.jpg" width="100%" align="center" title="ClassifierOutputBDT">
+        <img src="img/ClassifierOutputBDT.png" width="100%" align="center" title="ClassifierOutputBDT">
     </a>
 </td><td>
     <a href="https://jsrootsoftwareandcomputing.000webhostapp.com/rootfile/ClassifierOutputMLP.html" target="_blank"> 
-        <img src="img/ClassifierOutputMLP.jpg" width="100%" align="center" title="ClassifierOutputMLP">
+        <img src="img/ClassifierOutputMLP.png" width="100%" align="center" title="ClassifierOutputMLP">
     </a>
 </td></tr>
 </table>
@@ -96,11 +96,11 @@ Depending on the cut used in the response function domain, the efficiencies of S
 <table cellspacing="0" cellpadding="0" >
 <tr><td>
     <a href="https://jsrootsoftwareandcomputing.000webhostapp.com/rootfile/CutBDT.html" target="_blank"> 
-        <img src="img/CutBDT.jpg" width="100%" align="center" title="CutBDT">
+        <img src="img/CutBDT.png" width="100%" align="center" title="CutBDT">
     </a>
 </td><td>
     <a href="https://jsrootsoftwareandcomputing.000webhostapp.com/rootfile/CutMLP.html" target="_blank"> 
-        <img src="img/CutMLP.jpg"  align="center" title="CutMLP" >
+        <img src="img/CutMLP.png"  align="center" title="CutMLP" >
     </a>
 </td></tr>
 </table>
@@ -112,7 +112,7 @@ One of the best ways to compare the efficiency of multivariate analysis methods 
 As it is possible to see from the ROC curve (realized with the macro [efficiencies.cxx](https://github.com/gianpierovignola/project/blob/master/JSROOT/efficiencies.cxx)) the BDT and MLP methods have almost identical performances (more quantitative details in the file [std_output.txt](https://github.com/gianpierovignola/project/blob/master/Results/std_output.txt)). The Linear Cuts method, on the other hand, is totally unsuitable. it is almost comparable to a random assignment of the data type.(<b> click on images to open the JSROOT view </b>).
 <br><br>
 <a href="https://jsrootsoftwareandcomputing.000webhostapp.com/rootfile/ROC.html" target="_blank"> 
-        <img src="img/ROC.jpg"  align="center" title="ROC" >
+        <img src="img/ROC.png"  align="center" title="ROC" >
     </a>
 <br><br>
 ## 7.Graphical Representation of BDT and MLP

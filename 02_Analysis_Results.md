@@ -118,7 +118,7 @@ As it is possible to see from the ROC curve (realized with the macro [efficienci
 ## 7.Graphical Representation of BDT and MLP
 Using the macros [network.cxx](https://github.com/gianpierovignola/project/blob/master/JSROOT/network.cxx) and [BDT.cxx](https://github.com/gianpierovignola/project/blob/master/JSROOT/BDT.cxx) it is possible to draw the structure of the realized Neural Network (with a graphic representation of the weights given to the variables and connection between neurons) and the realized BDTs (subsequently averaged with boosting). an example below:
 <br><br>
-![](img/network.png | width=50 align=center)
+![](img/network.png | width=50)
 <img src="img/network.png" width="100%" align="center" title="MLP">
 <br><br>
 <img src="img/BDT_0.png"  align="center" title="BDT" >

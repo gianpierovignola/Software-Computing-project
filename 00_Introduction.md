@@ -1,8 +1,8 @@
 # 1.Introduction 
 
-The study of heavy quarks is one of the goals in ultra-relativistic heavy-nuclei collisions. Because of their mass, Charm quarks are created in the very early stages of the collision; then, they can interact and allow measures of their properties. In ALICE experiment at CERN, The charmed  Barion Λ<sub>c</sub><sup>+</sup> (udc, mass 2286 MeV/c<sup>2</sup>) has been reconstructed trough different channels of hadronic decay. One of this is the decay analyzed in this work:  Λ<sub>c</sub><sup>+</sup> → p + K<sub>s</sub> .<br>
-One of the main problem in the study of this decay is connected to the extreme short lifetime of the charmed barion: 2*10<sup>-13</sup>s. The mean path in this short time is of the order of 60 μm that is smaller than the 100 μm resolution of the ALICE micro-vertex system. therefore, It is impossible to locate the secondary vertex. This make the selection of the signal in the large amount of background very hard and Multivariate Analysis techniques are then used to classify events.<br>
-In this work a set of ALICE simulated signal and background events of this type was used for the training and the testing of different multivariate analysis methods. Thanks to prof. Andrea Alici for making this data available, and for the support given.
+The study of heavy quarks is one of the goals in ultra-relativistic heavy-nuclei collisions. Because of their mass, Charm quarks are created in the very early stages of the collision; then, they can interact and allow measures of their properties. In the ALICE experiment at CERN, the charmed  Barion Λ<sub>c</sub><sup>+</sup> (udc, mass 2286 MeV/c<sup>2</sup>) has been reconstructed trough different channels of hadronic decay. One of this is the decay analyzed in this work:  Λ<sub>c</sub><sup>+</sup> → p + K<sub>s</sub> .<br>
+One of the main problems in the study of this decay is connected to the extreme short lifetime of the charmed barion: 2*10<sup>-13</sup>s. The average path in this short time is of the order of 60 μm, that is smaller than the 100 μm resolution of the ALICE micro-vertex system. Therefore, it is impossible to locate the secondary vertex. This makes the selection of the signal in the large amount of background very hard and Multivariate Analysis techniques are then used to classify events.<br>
+In this work a set of ALICE simulated signal and background events of this type was used for the training and the testing of different multivariate analysis methods. I would like to thank prof. Andrea Alici for making this data available, and for his support.
 <p align="center"><img src="img/ALICE.jpg" alt="Example" width="60%" title="ALICE Experiment"><br><i><b>ALICE experiment at CERN</i></b></p>     
 
 
@@ -21,12 +21,12 @@ The Toolkit for Multivariate Data Analysis is an integrative package of ROOT. It
 
 
 ## 2.1.Linear Cuts 
-Is the simplest method of multivariate analysis. Each event is classified as a type 0 or type 1 by applying rectangular cuts to all input variables. The algorithm optimizes the values of the cuts by trying all the possible cuts on training sample. As will be illustrated in the [analysis of results](https://github.com/gianpierovignola/project/blob/master/02_Analysis_Results.md) this method was not very efficient in the analyzed sample (due to the high similarity between the signal and background events).
+This is the simplest method of multivariate analysis. Each event is classified as a type 0 or type 1 by applying rectangular cuts to all input variables. The algorithm optimizes the values of the cuts by trying all the possible cuts on the training sample. As it will be illustrated in the [analysis of results](https://github.com/gianpierovignola/project/blob/master/02_Analysis_Results.md) this method was not very efficient in the analyzed sample (due to the high similarity between the signal and the background events).
 <p align="center"><img src="img/cuts.png" alt="Example" width="30%" title="Linear rectangular cuts on 2 variable"><br><i><b>Linear rectangular cuts on 2 variable</i></b></p> 
 
 
 ## 2.2.BDT
-A decision tree is a series of binary decisions. Moving through the tree, regions with higher signal or background purity are progressively selected. It is similar to rectangular cuts but with dependences between the cuts. Generally to obtain an optimal decision tree (not too dependent on the training sample) boosting techniques are used: a "forest" of different trees is created basing on the same training sample, therefore a weighted average of the different trees is obtained trying to optimize the separation between signal and background.
+A decision tree is a series of binary decisions. Moving through the tree, regions with higher signal or background purity are progressively selected. It is similar to rectangular cuts but with dependences between the cuts. Generally to obtain an optimal decision tree (not too dependent on the training sample) boosting techniques are used: a "forest" of different trees is created based on the same training sample, therefore a weighted average of the different trees is obtained trying to optimize the separation between signal and background.
 <p align="center"><img src="img/bdti.png" alt="Example" width="50%" title="Example of Decision Tree"><br><i><b>Example of Decision Tree</i></b></p> 
 
 
@@ -36,7 +36,7 @@ Neural networks are a method of analysis composed of "neurons" that are activate
 
 
 # 3.JSROOT
-In this project it was decided to test, and use to present the results, a new tool still under development: JSROOT.
+In this project it was decided to test, and use to present the results, a new tool that is still getting develloped: JSROOT.
 With JSROOT it is possible to view ROOT files on different browsers. It creates an interesting interactive graphical interface where you can zoom in/out, view real time data, change style, analyze subsets of data, draw additional information, etc.
 <br>
 It is sufficient to pass the cursor over the image or press the right button to access all these functions.

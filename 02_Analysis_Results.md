@@ -75,7 +75,7 @@ In a good set of variables, there must be as little correlation as possible. Add
 
 ## 4.Classifier Output
 The three methods tested led to good results only for BDT and MLP. The method of rectangular cuts proved to be particularly inefficient. This is due to the fact that the difference between signal and background in the input variables is very small. Under these conditions only the most complex methods are able to give satisfactory results. <br>
-After TMVA Training and Testing the BDT and MLP classifiers produce a "response function" for signal and Background. The goal is to obtain functions as separate as possible in order to be able to separate the signal and the Background events. The following figures are obtained using the [mvas.cxx](https://github.com/gianpierovignola/project/blob/master/JSROOT/mvas.cxx) macro which uses the [weights](https://github.com/gianpierovignola/project/tree/master/Results/dataset/weights) produced by TMVA. To evaluate the possible presence of overtraining, the functions obtained in Training and Testing were superimposed, the perfect correspondence between the two confirms the absence of overtraining (<b> click on the images to view in JSROOT </b>).
+After TMVA Training and Testing the BDT and MLP classifiers produce a "response function" for the signal and the Background. The goal is to obtain functions as separate as possible in order to be able to separate the signal and the Background events. The following figures are obtained using the [mvas.cxx](https://github.com/gianpierovignola/project/blob/master/JSROOT/mvas.cxx) macro which uses the [weights](https://github.com/gianpierovignola/project/tree/master/Results/dataset/weights) produced by TMVA. To evaluate the possible presence of overtraining, the functions obtained in the Training and Testing were superimposed, the perfect correspondence between the two confirms the absence of overtraining (<b> click on the images to view in JSROOT </b>).
 <br><br>
 <table cellspacing="0" cellpadding="0" width="70%">
 <tr><td>
@@ -91,7 +91,7 @@ After TMVA Training and Testing the BDT and MLP classifiers produce a "response 
 <br><br>
 
 ## 5.Cuts
-Depending on the cut used in the response function domain, the efficiencies of Signal and Background changes. In the following graphs, created with the macro [mvaeff.cxx](https://github.com/gianpierovignola/project/blob/master/JSROOT/mvaeffs.cxx), it is possible to visualize the values of the efficiencies obtained. significance is also indicated, a parameter that we try to maximize in the analysis. It is defined as <b><i>S/sqrt(S+B)</i></b> where S and B are number of Signal and Background events. The maximum of significance represents the optimal cut value.(<b> click on the images to view in JSROOT </b>).
+Depending on the cut used in the response function domain, the efficiencies of Signal and Background change. In the following graphs, created with the macro [mvaeff.cxx](https://github.com/gianpierovignola/project/blob/master/JSROOT/mvaeffs.cxx), it is possible to visualize the values of the efficiencies obtained. The significance is also indicated, a parameter that we try to maximize in the analysis. It is defined as <b><i>S/sqrt(S+B)</i></b> where S and B are the number of the Signal and Background events. The maximum of significance represents the optimal cut value.(<b> click on the images to view in JSROOT </b>).
 <br><br>
 <table cellspacing="0" cellpadding="0" >
 <tr><td>
@@ -108,15 +108,15 @@ Depending on the cut used in the response function domain, the efficiencies of S
 
 ## 6.ROC Curves 
 
-One of the best ways to compare the efficiency of multivariate analysis methods is to look at the Receiver-Operating-Characteristic (ROC) curves. These represent the relationship between signal efficiency and background rejection. In an optimal situation one would like to reject all the Background maintaining the maximum signal efficiency. The working point on a curved ROC is chosen according to the analysis needs. For example, in the trigger selection high signal efficency is required while for precision measurements a high reduction of the background is preferred. <br>
-As it is possible to see from the ROC curve (realized with the macro [efficiencies.cxx](https://github.com/gianpierovignola/project/blob/master/JSROOT/efficiencies.cxx)) the BDT and MLP methods have almost identical performances (more quantitative details in the file [std_output.txt](https://github.com/gianpierovignola/project/blob/master/Results/std_output.txt)). The Linear Cuts method, on the other hand, is totally unsuitable. it is almost comparable to a random assignment of the data type.(<b> click on the image to view in JSROOT </b>).
+One of the best ways to compare the efficiency of multivariate analysis methods is to look at the Receiver-Operating-Characteristic (ROC) curves. These represent the relationship between signal efficiency and background rejection. In an optimal situation one would like to reject all of the Background maintaining the maximum signal efficiency. The working point on a curved ROC is chosen according to the analysis needs. For example, in the trigger selection high signal efficency is required while for precision measurements a high reduction of the background is preferred. <br>
+As it is possible to see from the ROC curve (realized with the macro [efficiencies.cxx](https://github.com/gianpierovignola/project/blob/master/JSROOT/efficiencies.cxx)) the BDT and MLP methods have almost identical performances (for more quantitative details check in the file [std_output.txt](https://github.com/gianpierovignola/project/blob/master/Results/std_output.txt)). The Linear Cuts method, on the other hand, is totally unsuitable. It is almost comparable to a random assignment of the data type.(<b> click on the image to view in JSROOT </b>).
 <br><br>
 <a href="https://jsrootsoftwareandcomputing.000webhostapp.com/rootfile/ROC.html" target="_blank"> 
         <img src="img/ROC.png"  align="center" title="ROC" >
     </a>
 <br><br>
 ## 7.Graphical Representation of BDT and MLP
-Using the macros [network.cxx](https://github.com/gianpierovignola/project/blob/master/JSROOT/network.cxx) and [BDT.cxx](https://github.com/gianpierovignola/project/blob/master/JSROOT/BDT.cxx) it is possible to draw the structure of the realized Neural Network (with a graphic representation of the weights given to the variables and connection between neurons) and the realized BDTs (subsequently averaged with boosting). an example below:
+Using the macros [network.cxx](https://github.com/gianpierovignola/project/blob/master/JSROOT/network.cxx) and [BDT.cxx](https://github.com/gianpierovignola/project/blob/master/JSROOT/BDT.cxx) it is possible to draw the structure of the realized Neural Network (with a graphic representation of the weights given to the variables and connection between the neurons) and the realized BDTs (subsequently averaged with boosting). See an example below:
 <br><br>
 <img src="img/network.png" width="100%" align="center" title="MLP">
 <br><br>

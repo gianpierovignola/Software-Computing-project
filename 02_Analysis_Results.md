@@ -36,13 +36,13 @@ Below a brief description of the variables that it was decided to use in the mul
 
 * <b>CosThetaStar</b>: cosine of the angle between the direction of emission of the proton (in the reference system in which Λ<sub>c</sub><sup>+</sup> is at rest) and the direction of Λ<sub>c</sub><sup>+</sup> in the LAB system. <br> 
 * <b>combinedProtonProb</b>: Probability that the charged trace associated with K<sub>s</sub><sup>0</sup> is a proton. <br> 
-* <b>signd0</b>: Proton impact parameter that takes into account the sign.<br>
+* <b>signd0</b>: Proton impact parameter with the sign.<br>
 * <b>tImpParV0</b>: Impact parameter of K<sub>s</sub><sup>0</sup><br>
-* <b>tImpParBach</b>: Proton impact parameter defined as the distance between the reconstructed trace and the primary vertex (small for Signal events) <br> 
+* <b>tImpParBach</b>: Proton impact parameter defined as the distance between the reconstructed trace and the primary vertex (small for Signal events). <br> 
 * <b>CtK0S</b>: (DecayLengthK0S * 0.497 / v0P) life-time of the K<sub>s</sub><sup>0</sup>, corresponds to the distance traveled by the K<sub>s</sub><sup>0</sup> multiplied by its mass and divided by its momentum. <br> 
-* <b>cosPAK0S</b>: cosine of the pointing angle: angle between the reconstructed trace of the K<sub>s</sub><sup>0</sup> and the line passing through the primary vertex and point of decay of the K<sub>s</sub><sup>0</sup> (close to 1). <br> 
+* <b>cosPAK0S</b>: cosine of the pointing angle: angle between the reconstructed trace of the K<sub>s</sub><sup>0</sup> and the line passing through the primary vertex and the point of decay of the K<sub>s</sub><sup>0</sup> (close to 1). <br> 
 
-The comparison between signal and background of the input variables is represented in the following graphs (<b>click on it to open the view in JSROOT</b>). The two canvases were obtained using the pyROOT macro: [macro.py](https://github.com/gianpierovignola/project/blob/master/JSROOT/macro.py).
+The comparison between signal and background of the input variables is represented in the following graphs (<b>click on them to view in JSROOT</b>). The two canvases were obtained using the pyROOT macro: [macro.py](https://github.com/gianpierovignola/project/blob/master/JSROOT/macro.py).
 <br><br>
 <table cellspacing="0" cellpadding="0" width="70%">
 <tr><td>
@@ -58,7 +58,7 @@ The comparison between signal and background of the input variables is represent
 
 
 ## 3.Correlation Coefficents
-In a good set of variables, there must be as little correlation as possible. Adding a correlated variable increases the complexity of the multivariate analysis without increasing the accuracy of the results. Using the ROOT macro [correlations.cxx](https://github.com/gianpierovignola/project/blob/master/JSROOT/correlations.cxx) it was possible to produce the following correlation plots (<b> click on it to open the JSROOT view </b>):
+In a good set of variables, there must be as little correlation as possible. Adding a correlated variable increases the complexity of the multivariate analysis without increasing the accuracy of the results. Using the ROOT macro [correlations.cxx](https://github.com/gianpierovignola/project/blob/master/JSROOT/correlations.cxx) it was possible to produce the following correlation plots (<b>click on them to view in JSROOT</b>):
 <br><br>
 <table cellspacing="0" cellpadding="0" width="70%">
 <tr><td>
@@ -75,7 +75,7 @@ In a good set of variables, there must be as little correlation as possible. Add
 
 ## 4.Classifier Output
 The three methods tested led to good results only for BDT and MLP. The method of rectangular cuts proved to be particularly inefficient. This is due to the fact that the difference between signal and background in the input variables is very small. Under these conditions only the most complex methods are able to give satisfactory results. <br>
-After TMVA Training and Testing the BDT and MLP classifiers produce a "response function" for signal and Background. The goal is to obtain functions as separate as possible in order to be able to separate the signal and the Background events. The following figures are obtained using the [mvas.cxx](https://github.com/gianpierovignola/project/blob/master/JSROOT/mvas.cxx) macro which uses the [weights](https://github.com/gianpierovignola/project/tree/master/Results/dataset/weights) produced by TMVA. To evaluate the possible presence of overtraining, the functions obtained in Training and Testing were superimposed, the perfect correspondence between the two confirms the absence of overtraining (<b> click on images to open the JSROOT view </b>).
+After TMVA Training and Testing the BDT and MLP classifiers produce a "response function" for signal and Background. The goal is to obtain functions as separate as possible in order to be able to separate the signal and the Background events. The following figures are obtained using the [mvas.cxx](https://github.com/gianpierovignola/project/blob/master/JSROOT/mvas.cxx) macro which uses the [weights](https://github.com/gianpierovignola/project/tree/master/Results/dataset/weights) produced by TMVA. To evaluate the possible presence of overtraining, the functions obtained in Training and Testing were superimposed, the perfect correspondence between the two confirms the absence of overtraining (<b> click on the images to view in JSROOT </b>).
 <br><br>
 <table cellspacing="0" cellpadding="0" width="70%">
 <tr><td>
@@ -91,7 +91,7 @@ After TMVA Training and Testing the BDT and MLP classifiers produce a "response 
 <br><br>
 
 ## 5.Cuts
-Depending on the cut used in the response function domain, the efficiencies of Signal and Background changes. In the following graphs, created with the macro [mvaeff.cxx](https://github.com/gianpierovignola/project/blob/master/JSROOT/mvaeffs.cxx), it is possible to visualize the values of the efficiencies obtained. significance is also indicated, a parameter that we try to maximize in the analysis. It is defined as <b><i>S/sqrt(S+B)</i></b> where S and B are number of Signal and Background events. The maximum of significance represents the optimal cut value.(<b> click on images to open the JSROOT view </b>).
+Depending on the cut used in the response function domain, the efficiencies of Signal and Background changes. In the following graphs, created with the macro [mvaeff.cxx](https://github.com/gianpierovignola/project/blob/master/JSROOT/mvaeffs.cxx), it is possible to visualize the values of the efficiencies obtained. significance is also indicated, a parameter that we try to maximize in the analysis. It is defined as <b><i>S/sqrt(S+B)</i></b> where S and B are number of Signal and Background events. The maximum of significance represents the optimal cut value.(<b> click on the images to view in JSROOT </b>).
 <br><br>
 <table cellspacing="0" cellpadding="0" >
 <tr><td>
@@ -109,7 +109,7 @@ Depending on the cut used in the response function domain, the efficiencies of S
 ## 6.ROC Curves 
 
 One of the best ways to compare the efficiency of multivariate analysis methods is to look at the Receiver-Operating-Characteristic (ROC) curves. These represent the relationship between signal efficiency and background rejection. In an optimal situation one would like to reject all the Background maintaining the maximum signal efficiency. The working point on a curved ROC is chosen according to the analysis needs. For example, in the trigger selection high signal efficency is required while for precision measurements a high reduction of the background is preferred. <br>
-As it is possible to see from the ROC curve (realized with the macro [efficiencies.cxx](https://github.com/gianpierovignola/project/blob/master/JSROOT/efficiencies.cxx)) the BDT and MLP methods have almost identical performances (more quantitative details in the file [std_output.txt](https://github.com/gianpierovignola/project/blob/master/Results/std_output.txt)). The Linear Cuts method, on the other hand, is totally unsuitable. it is almost comparable to a random assignment of the data type.(<b> click on images to open the JSROOT view </b>).
+As it is possible to see from the ROC curve (realized with the macro [efficiencies.cxx](https://github.com/gianpierovignola/project/blob/master/JSROOT/efficiencies.cxx)) the BDT and MLP methods have almost identical performances (more quantitative details in the file [std_output.txt](https://github.com/gianpierovignola/project/blob/master/Results/std_output.txt)). The Linear Cuts method, on the other hand, is totally unsuitable. it is almost comparable to a random assignment of the data type.(<b> click on the image to view in JSROOT </b>).
 <br><br>
 <a href="https://jsrootsoftwareandcomputing.000webhostapp.com/rootfile/ROC.html" target="_blank"> 
         <img src="img/ROC.png"  align="center" title="ROC" >
